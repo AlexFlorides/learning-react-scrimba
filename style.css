@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23252C;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+}
+
+.header > .button {
+    display: flex;
+    flex: 1;
+    background-color: #1A1B21;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #161619;
+}
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.home-page-items {
+    font-size: 2vh;
+}
+
+@media only screen and (min-width: 700px) {
+    .home-page-items {
+        font-size: 5vh;
+    }
+
+    .home-page-logo > img {
+        width: 25%;
+    }
+}
+
+.home-page-items > a {
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.home-page-items > a:hover {
+    box-shadow: inset 1000px 0 0 0 #54b3d6;
+    color: white;
+}
+
+.home-page-logo {
+    margin-top: 8vh;
+}
+
+.home-page-items > img {
+    width: 30%;
+}
+
+/* Project 1 */
+
+.info-img-proj1 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info-name-proj1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 1.5vw;
+}
+
+.info-position-proj1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+.info-email-proj1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.app-proj1 {
+    background: #1A1B21;
+    border-radius: 10px 10px 10px 10px;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.info-btns-proj1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-btns-proj1 > a > button {
+    width: 100px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-right: 7px;
+    font-size: 16px;
+    padding: 8px 8px 8px 32px;
+    background-position: 8px;
+}
+
+.info-btns-proj1 > a > button:hover {
+    cursor: pointer;
+}
+
+.info-email-btn-proj1 {
+    background: #FFFFFF url("https://img.icons8.com/material-rounded/344/new-post.png");
+}
+
+.info-linkedin-btn-proj1 {
+    background: #5093E2 url("https://img.icons8.com/ios-filled/344/ffffff/linkedin.png");
+    color: white;
+}
+
+.body-comp-proj1 {
+    color: white;
+    text-align: start;
+    margin: 20px;
+}
+
+.footer-proj1 {
+    width: 100%;
+    height: 64px;
+    background: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-proj1 > a > img {
+    width: 45px;
+    margin: 5px
+}
+
+@media only screen and (min-width: 700px) {
+    .app-proj1 {
+        width: 35%;
+    }
+}
+
+
+/* Project 2 */
+
+.nav-proj2 {
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color: white;
+}
+
+.nav-proj2 > p {
+    font-size: 4vh;
+}
+
+.navbar-logo-proj2 {
+    height: 34px;
+    margin-right: 7px;
+}
+
+.location-proj2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.location-proj2 > img {
+    width: 35%;
+    height: 15%;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+.location-icon-proj2 {
+    height: 1.5vw;
+    width: 1.5vw;
+    margin-right: 4px;
+}
+
+.location-country-proj2{
+    font-size: 2vw;
+    letter-spacing: 0.17em;
+    font-weight: 400px;
+    margin-right: 12px;
+}
+
+.map-link-proj2 {
+    font-size: 1.5vw;
+    text-decoration-line: underline;
+    color: #918E9B;
+    float: right;
+}
+
+.location-location-proj2 {
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 2vh;
+    margin: 1.5vw 0 0 0;
+}
+
+.location-dates-proj2 {
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 12px;
+}
+
+.location-description-proj2 {
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 150%;
+    max-width: 50vw;
+}
