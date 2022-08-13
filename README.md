@@ -1,91 +1,105 @@
 # Introduction
-Combination of the solo projects I have completed by following the interactive course of learning React at: https://scrimba.com/learn/learnreact
 
-### Completed Modules so far 2/4:
+Combination of the solo projects I have completed by following the interactive course of learning React at: [https://scrimba.com/learn/learnreact](https://scrimba.com/learn/learnreact)
+
+## Completed Modules so far 2/4
+
 - [x] Build a react info site
 - [x] Build an AirBnb experience clone
 - [ ] Build a meme generator
 - [ ] Build a notes app and Tenzies game
 
-### By completing the course I will learn:
-* Local setup
+### By completing the course I will learn
 
-* Why React?
+- Local setup
 
-* JSX
+- Why React?
 
-* ReactDOM.render()
+- JSX
 
-* Custom components
+- ReactDOM.render()
 
-* Organizing components
+- Custom components
 
-* Reusable components
+- Organizing components
 
-* JS inside JSX
+- Reusable components
 
-* Props
+- JS inside JSX
 
-* Destructuring props
+- Props
 
-* Rendering arrays
+- Destructuring props
 
-* Mapping components
+- Rendering arrays
 
-* Key prop
+- Mapping components
 
-* Passing objects as props
+- Key prop
 
-* Spreading objects as props
+- Passing objects as props
 
-* Props vs state
+- Spreading objects as props
 
-* useState
+- Props vs state
 
-* useState array destructuring
+- useState
 
-* Changing state
+- useState array destructuring
 
-* Complex state
+- Changing state
 
-* Refactoring state
+- Complex state
 
-* Passing state as props
+- Refactoring state
 
-* Local state
+- Passing state as props
 
-* Unified state
+- Local state
 
-* Conditional rendering
+- Unified state
 
-* React forms
+- Conditional rendering
 
-* Forms input
+- React forms
 
-* Forms state object
+- Forms input
 
-* Submitting forms in React
+- Forms state object
 
-* Making API calls
+- Submitting forms in React
 
-* useEffect
+- Making API calls
 
-* Async functions inside useEffect
+- useEffect
 
-* Local storage with React
+- Async functions inside useEffect
 
-* Lazy state initialization
+- Local storage with React
 
-# Demo:
-https://alexflorides.github.io/learning-react-scrimba/
+- Lazy state initialization
+
+# Install & Run
+
+1) Download and unzip repo or Clone repo
+2) Go to unzipped folder
+3) Install packages with $ npm install
+4) Run with $ npm start
+
+# Demo
+
+[https://alexflorides.github.io/learning-react-scrimba/](https://alexflorides.github.io/learning-react-scrimba/)
 
 ## Home Page
+
 ![home](https://user-images.githubusercontent.com/47948084/183994088-26b129a8-5f2e-4f90-9a4d-f95556e187cc.png)
 
 ## Business Card
+
 ![first](https://user-images.githubusercontent.com/47948084/183994064-b7d969f1-c77b-4215-80a9-d1c35453afb3.png)
 
 ## Travel Journal
+
 ![second](https://user-images.githubusercontent.com/47948084/183994073-1682f588-f58d-47a7-a163-cefe50b8e2d6.png)
 
 # Getting Started with Create React App

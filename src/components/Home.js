@@ -8,7 +8,7 @@ export default function Home(){
                 <p>Projects I created by following the course at:</p>
                 <a href="https://scrimba.com/learn/learnreact">https://scrimba.com/learn/learnreact</a>
                 <div className="home-page-logo">
-                    <img alt="React Logo" src="./logo192.png"></img>
+                    <img alt="React Logo" src={process.env.PUBLIC_URL + "/logo192.png"}></img>
                 </div>
             </div>
         </div>
