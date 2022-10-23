@@ -2,7 +2,7 @@
 
 Combination of the solo projects I have completed by following the interactive course of learning React at: [https://scrimba.com/learn/learnreact](https://scrimba.com/learn/learnreact)
 
-## Completed Modules so far 2/4
+## Completed Modules so far 3/4
 
 - [x] Build a react info site
 - [x] Build an AirBnb experience clone
@@ -92,15 +92,19 @@ Combination of the solo projects I have completed by following the interactive c
 
 ## Home Page
 
-![home](https://user-images.githubusercontent.com/47948084/183994088-26b129a8-5f2e-4f90-9a4d-f95556e187cc.png)
+![home](https://user-images.githubusercontent.com/47948084/197385904-6e5b3a09-493b-451c-b855-1666072e3221.png)
 
 ## Business Card
 
-![first](https://user-images.githubusercontent.com/47948084/183994064-b7d969f1-c77b-4215-80a9-d1c35453afb3.png)
+![first](https://user-images.githubusercontent.com/47948084/197385854-0d9526ed-fba1-4f29-958b-1f7eddaf4aa8.png)
 
 ## Travel Journal
 
-![second](https://user-images.githubusercontent.com/47948084/183994073-1682f588-f58d-47a7-a163-cefe50b8e2d6.png)
+![second](https://user-images.githubusercontent.com/47948084/197385998-a10bbb6a-7234-487b-aa53-52554625d6a3.png)
+
+## Meme Generator
+
+![third](https://user-images.githubusercontent.com/47948084/197385743-fcd73e1f-fda3-4926-9179-c9cb501f7725.png)
 
 # Getting Started with Create React App
 
