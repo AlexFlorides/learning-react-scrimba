@@ -6,7 +6,7 @@ Combination of the solo projects I have completed by following the interactive c
 
 - [x] Build a react info site
 - [x] Build an AirBnb experience clone
-- [ ] Build a meme generator
+- [x] Build a meme generator
 - [ ] Build a notes app and Tenzies game
 
 ### By completing the course I will learn

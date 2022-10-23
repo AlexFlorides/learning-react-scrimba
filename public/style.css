@@ -16,7 +16,7 @@ body {
     flex: 1;
     background-color: #1A1B21;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
     text-decoration: none;
     align-items: center;
@@ -67,7 +67,7 @@ body {
     width: 30%;
 }
 
-/* Project 1 */
+/* Project 1 - Business Card */
 
 .info-img-proj1 {
     width: 100%;
@@ -175,7 +175,7 @@ body {
 }
 
 
-/* Project 2 */
+/* Project 2 - Travel Journal */
 
 .nav-proj2 {
     display: flex;
@@ -248,4 +248,108 @@ body {
     font-size: 1.5vw;
     line-height: 150%;
     max-width: 50vw;
+}
+
+/* Project 3 - Meme Generator */
+
+.header-proj3 {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.header-image-proj3 {
+    height: 150%;
+    margin-right: 1rem;
+}
+
+.header-title-proj3 {
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+
+.header-subtitle-proj3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-proj3 {
+    display: grid;
+    grid-template: 40px 40px / 50% 50%;
+    gap: 17px;
+    margin-bottom: 17px;
+    padding: 1.75rem;
+}
+
+.form-input-proj3 {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form-button-proj3 {
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.meme-proj3 {
+    position: absolute;
+    padding: 0em 1.75em 0em 1.75em;
+    height: 50%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.meme-image-proj3 {
+    max-width: 100%;
+    border-radius: 3px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height: 100%;
+}
+
+.meme-text-proj3 {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top-proj3 {
+    top: 0;
+}
+
+.bottom-proj3 {
+    bottom: 0;
 }

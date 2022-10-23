@@ -8,6 +8,7 @@ export default function Layout() {
             <Link className="button" to="/">Home</Link>
             <Link className="button" to="/business-card">Business Card</Link>
             <Link className="button" to="/travel-journal">Travel Journal</Link>
+            <Link className="button" to="/meme-generator">Meme Generator</Link>
         </header>
         <Outlet />
     </div>
