@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/learning-react-scrimba/static/js/main.47717a57.js",
+    "main.css": "/learning-react-scrimba/static/css/main.5f039f56.css",
+    "main.js": "/learning-react-scrimba/static/js/main.f0995d4b.js",
     "index.html": "/learning-react-scrimba/index.html",
-    "main.47717a57.js.map": "/learning-react-scrimba/static/js/main.47717a57.js.map"
+    "main.5f039f56.css.map": "/learning-react-scrimba/static/css/main.5f039f56.css.map",
+    "main.f0995d4b.js.map": "/learning-react-scrimba/static/js/main.f0995d4b.js.map"
   },
   "entrypoints": [
-    "static/js/main.47717a57.js"
+    "static/css/main.5f039f56.css",
+    "static/js/main.f0995d4b.js"
   ]
 }
