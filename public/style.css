@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
     flex: 1;
     background-color: #1A1B21;
     color: white;
-    font-size: 1.25rem;
+    font-size: 0.75rem;
     cursor: pointer;
     text-decoration: none;
     align-items: center;
@@ -42,6 +43,10 @@ body {
 
     .home-page-logo > img {
         width: 25%;
+    }
+
+    .header > .button {
+        font-size: 1.25rem;
     }
 }
 
@@ -352,4 +357,340 @@ body {
 
 .bottom-proj3 {
     bottom: 0;
+}
+
+/* Project 4 - Notes App */
+
+.button-proj4:focus {
+    outline: none;
+}
+
+.ql-editor p,
+.ql-editor.ql-blank::before {
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
+.pane-proj4 {
+    overflow-y: auto;
+}
+
+.sidebar-proj4 {
+    width: 20%;
+    height: 100vh;
+}
+
+.sidebar--note {
+  
+}
+
+.sidebar--header-proj4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.sidebar--header-proj4 > h3 {
+    font-size: 1.75rem;
+    color: white;
+}
+
+.new-note-proj4 {
+    cursor: pointer;
+    background-color: #4A4E74;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+}
+
+.first-note-proj4 {
+    cursor: pointer;
+    background-color: #4A4E74;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.editor-proj4 {
+    width: 80%;
+    height: 100vh;
+}
+
+.title-proj4 {
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title--delete {
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.title-proj4:hover .title--delete {
+    display: block;
+}
+
+.note-summary:not(:last-of-type) {
+    border-bottom: 1px solid lightgray;
+}
+
+.text-snippet-proj4 {
+    padding-inline: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    color: #4A4E74;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.selected-note-proj4 {
+    background-color: #4A4E74;
+}
+
+.selected-note-proj4 .text-snippet-proj4 {
+    color: white;
+    font-weight: 700;
+}
+
+.gutter {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+}
+
+.gutter.gutter-horizontal:hover {
+    cursor: col-resize;
+}
+
+.split-proj4 {
+    display: flex;
+}
+
+.no-notes-proj4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #23252C;
+}
+
+.no-notes-proj4 > h1 {
+    color: white;
+}
+
+.delete-btn-proj4 {
+    display: none;
+    background: none;
+    border: none;
+}
+
+.title-proj4:hover > .delete-btn-proj4 {
+    display: block;
+}
+
+.trash-icon-proj4 {
+    cursor: pointer;
+}
+
+ .gg-trash-proj4 {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 10px;
+    height: 12px;
+    border: 2px solid transparent;
+    box-shadow:
+        0 0 0 2px,
+        inset -2px 0 0,
+        inset 2px 0 0;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    margin-top: 4px
+}
+
+.gg-trash-proj4::after,
+.gg-trash-proj4::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-trash-proj4::after {
+    background: currentColor;
+    border-radius: 3px;
+    width: 16px;
+    height: 2px;
+    top: -4px;
+    left: -5px
+}
+
+.gg-trash-proj4::before {
+    width: 10px;
+    height: 4px;
+    border: 2px solid;
+    border-bottom: transparent;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    top: -7px;
+    left: -2px
+} 
+
+.react-mde {
+    border: 1px solid black !important;
+}
+
+.mde-tabs .selected {
+    border: 1px solid black !important;
+}
+
+.mde-header {
+    background-color: #4A4E74 !important;
+    border-bottom: 1px solid black !important;
+}
+
+.mde-text {
+    background-color: #23252C;
+    color: white;
+}
+
+.mde-preview {
+    color: white;
+}
+
+/* Project 5 - Tenzies Game */
+
+.main-proj5 {
+    height: 90vh;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.title-proj5 {
+    font-size: 5vh;
+    margin: 0;
+}
+
+.instructions-proj5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.dice-container-proj5 {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.roll-dice-proj5 {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+}
+
+.roll-dice-proj5:focus {
+    outline: none;
+}
+
+.roll-dice-proj5:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.count-time-score-proj5 {
+    width: 100%;
+    display: grid;
+    grid-template: auto auto / repeat(2, 1fr);
+    font-size: 2.5vh;
+}
+
+.grid-item-proj5:nth-child(2n){
+    text-align: right;
+}
+
+.buttons-proj5  {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+}
+
+/* dice dots */
+
+.face {
+	display: grid;
+	grid-template-areas:
+		"a . c"
+		"e g f"
+		"d . b";
+	flex: 0 0 auto;
+	padding: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 10%;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.pip {
+	display: block;
+	align-self: center;
+	justify-self: center;
+    width: 100%;
+    height: 100%;
+	border-radius: 50%;
+	background-color: #333;
+	box-shadow: inset 0 3px #111, inset 0 -3px #555;
+}
+
+.pip:nth-child(2) {
+	grid-area: b;
+}
+.pip:nth-child(3) {
+	grid-area: c;
+}
+.pip:nth-child(4) {
+	grid-area: d;
+}
+.pip:nth-child(5) {
+	grid-area: e;
+}
+.pip:nth-child(6) {
+	grid-area: f;
+}
+/* This selects the last pip of odd-valued dice (1, 3, 5) and positions the pip in the center */
+.pip:nth-child(odd):last-child {
+	grid-area: g;
 }

@@ -2,12 +2,12 @@
 
 Combination of the solo projects I have completed by following the interactive course of learning React at: [https://scrimba.com/learn/learnreact](https://scrimba.com/learn/learnreact)
 
-## Completed Modules so far 3/4
+## Completed Modules so far 4/4
 
 - [x] Build a react info site
 - [x] Build an AirBnb experience clone
 - [x] Build a meme generator
-- [ ] Build a notes app and Tenzies game
+- [x] Build a notes app and Tenzies game
 
 ### By completing the course I will learn
 
@@ -92,19 +92,27 @@ Combination of the solo projects I have completed by following the interactive c
 
 ## Home Page
 
-![home](https://user-images.githubusercontent.com/47948084/197385904-6e5b3a09-493b-451c-b855-1666072e3221.png)
+![home](https://user-images.githubusercontent.com/47948084/217340593-b29b9ed7-5569-4772-a267-4b08219e5a16.png)
 
 ## Business Card
 
-![first](https://user-images.githubusercontent.com/47948084/197385854-0d9526ed-fba1-4f29-958b-1f7eddaf4aa8.png)
+![first](https://user-images.githubusercontent.com/47948084/217340572-abdc0c08-9286-4543-ab0f-d4f465f1ebf6.png)
 
 ## Travel Journal
 
-![second](https://user-images.githubusercontent.com/47948084/197385998-a10bbb6a-7234-487b-aa53-52554625d6a3.png)
+![second](https://user-images.githubusercontent.com/47948084/217340581-a72272e3-1297-43e7-8f12-1c1c7e83d401.png)
 
 ## Meme Generator
 
-![third](https://user-images.githubusercontent.com/47948084/197385743-fcd73e1f-fda3-4926-9179-c9cb501f7725.png)
+![third](https://user-images.githubusercontent.com/47948084/217340587-320c862b-001f-47b7-bb24-4912b58c88cb.png)
+
+## Notes App
+
+![fourth](https://user-images.githubusercontent.com/47948084/217340590-41d50d29-f8d6-485d-a4bc-3f047cc39169.png)
+
+## Tenzies Game
+
+![fifth](https://user-images.githubusercontent.com/47948084/217340591-252dd089-9556-449c-af14-c3751ea73b3e.png)
 
 # Getting Started with Create React App
 

@@ -6,7 +6,10 @@ export default function Meme() {
         bottomText: "",
         randomImage: "http://i.imgflip.com/1bij.jpg" 
     })
+
     const [allMemes, setAllMemes] = React.useState([])
+
+    const [imageWidth, setImageWidth] = React.useState(1000)
     
     React.useEffect(() => {
         async function getMemes() {
@@ -34,12 +37,17 @@ export default function Meme() {
             [name]: value
         }))
     }
+
+    function updateImageWidth(width){
+        setImageWidth((width / 32) + 10)
+    }
     
     return (
         <main className="main-form-meme-proj3">
             <div className="form-proj3">
                 <input 
                     type="text"
+                    maxLength={imageWidth}
                     placeholder="Top text"
                     className="form-input-proj3"
                     name="topText"
@@ -48,6 +56,7 @@ export default function Meme() {
                 />
                 <input 
                     type="text"
+                    maxLength={imageWidth}
                     placeholder="Bottom text"
                     className="form-input-proj3"
                     name="bottomText"
@@ -62,7 +71,7 @@ export default function Meme() {
                 </button>
             </div>
             <div className="meme-proj3">
-                <img alt="Random Meme" src={meme.randomImage} className="meme-image-proj3" />
+                <img onLoad={(img) => updateImageWidth(img.target.width)} id="meme-image-proj3" alt="Random Meme" src={meme.randomImage} className="meme-image-proj3" />
                 <h2 className="meme-text-proj3 top-proj3">{meme.topText}</h2>
                 <h2 className="meme-text-proj3 bottom-proj3">{meme.bottomText}</h2>
             </div>
